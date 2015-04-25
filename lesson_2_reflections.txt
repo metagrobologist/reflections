@@ -2,12 +2,16 @@ git log
 git diff
 git diff --staged
 git diff id1 id2
+git show id1    (shows diff of id1 with parent of id1)
 git add filename1
 git commit
 git checkout id1
 git checkout master
 git reset filename1
 git reset --hard
+git log --graph --oneline master coins easy-mode
+git merge master coins
+git merge --abort
 
 What happens when you initialize a repository? Why do you need to do it?
 
@@ -30,3 +34,14 @@ How do the diagrams help you visualize the branch structure?
 
 Makes the structure visual and perhaps more clear.
 
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+While using branch branch1 the command
+  git merge branch2
+  (or git merge branch1 branch2
+combines the changes in both branches from a common origin. The resulting branch will be called branch1. We represent it by a new node with parents both branches as with any changes.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Pros: It saves a lot of work
+cons: ?
