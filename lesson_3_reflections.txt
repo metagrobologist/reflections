@@ -18,3 +18,7 @@ a fork is a feature of GitHub, which looks like a clone but then only on the ser
 One would use a branch instead of clone or fork when working locally on a new feature or try out a change.
 One would use a clone instead of a branch or fork when wanting to work on code of a local or remote repository without adding to that repository but on a local copy
 One would use a fork instead of a clone when one wants to work on code from a remote repository on GitHub where one can not write to it.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+Well, you are up-to-date even when no internet available; so working on the plane after that would be fine :)
