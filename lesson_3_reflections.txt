@@ -4,3 +4,17 @@ When you are working on different computers and different locations, perhaps eve
 When working with different persons on the same code.
 When making your work public (open source)
 As backup (private of public)
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+You might want to keep a working version or certain features
+You might not want to lose your changes
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+a branch is a different version of your code with its own commits
+a clone is a local copy of a all commits of a (local or remote) repository  
+a fork is a feature of GitHub, which looks like a clone but then only on the servers of GitHub.
+One would use a branch instead of clone or fork when working locally on a new feature or try out a change.
+One would use a clone instead of a branch or fork when wanting to work on code of a local or remote repository without adding to that repository but on a local copy
+One would use a fork instead of a clone when one wants to work on code from a remote repository on GitHub where one can not write to it.
