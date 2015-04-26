@@ -22,3 +22,13 @@ One would use a fork instead of a clone when one wants to work on code from a re
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 Well, you are up-to-date even when no internet available; so working on the plane after that would be fine :)
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Without i would prefer to collaborate working in the same room, using manual diff's to be able to merge. However i think a tool like svn or git is much better suited for collaboration, and easier; since it automates most of the grunt work of merging. Also with pull requests there is a way to control better which changes go in the master or stable branch.
+
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+As said before; a different branch can contain experimental code or different features of the 'main' master branch. It is also a way to keep master clean and lean
+
